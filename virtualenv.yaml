@@ -1,5 +1,7 @@
-python: 3.11.4
+python: "3.11.4"
 build_dependencies:
-  - pip==25.1.1
+  - pip
+  - setuptools
+  - wheel
 dependencies:
   - -r requirements.txt
